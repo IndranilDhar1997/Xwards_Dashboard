@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "team-management.css",
+	"sources": [
+		"../../../../sass/pages/team/team-management.scss"
+	],
+	"sourcesContent": [
+		".img-holder {\n    width: 40px;\n    height: 40px;\n    border-radius: 50px;\n}\n\n.role-holder {\n    padding: 8px;\n    font-size: small;\n}\n\n.member-count {\n    border-radius: 1.25rem !important;\n    font-size: 95%;\n    margin-left: 10px;\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,WAAW,CAAC;EACR,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,IAAI;CACtB;;;AAED,AAAA,YAAY,CAAC;EACT,OAAO,EAAE,GAAG;EACZ,SAAS,EAAE,KAAK;CACnB;;;AAED,AAAA,aAAa,CAAC;EACV,aAAa,EAAE,kBAAkB;EACjC,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,IAAI;CACpB"
+}

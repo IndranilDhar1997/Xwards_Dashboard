@@ -1,0 +1,16 @@
+form#createContentForm {
+    #tablet {
+        background: url("../../../images/tablet_campaign.png") no-repeat;
+        width: 90vh;
+        height: 70vh;
+        background-size: contain;
+        background-position: center;
+        margin: 0px auto;
+        padding: 5vh 7vh;
+        margin-bottom: 20px;
+        p.uploadDescription {
+            width: 100%;
+            margin-top: 20vh;
+        }
+    }
+}

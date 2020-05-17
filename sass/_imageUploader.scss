@@ -1,0 +1,49 @@
+.x-image-upload {
+    position: relative;
+    margin: 0px auto;
+    background: #efefef;
+    .x-image-upload-file, .x-image-upload-title {
+        position: absolute;
+        top: 0px;
+    }
+    .x-image-upload-file {
+        opacity: 0;
+        z-index: 888;
+        &:hover {cursor: pointer;}
+    }
+    .x-image-preview {
+        object-fit: cover;
+    }
+}
+.titleLayover {
+    position: absolute;
+    overflow: hidden;
+    h2 {
+        word-break: break-all;
+    }
+}
+
+.x-video-upload {
+    position: relative;
+    margin: 0px auto;
+    background: #efefef;
+    .x-video-upload-file, .x-video-upload-title {
+        position: absolute;
+        top: 0px;
+    }
+    .x-video-upload-file {
+        opacity: 0;
+        z-index: 888;
+        &:hover {cursor: pointer;}
+    }
+    .x-video-preview {
+        object-fit: cover;
+    }
+}
+.titleLayover {
+    position: absolute;
+    overflow: hidden;
+    h2 {
+        word-break: break-word;
+    }
+}

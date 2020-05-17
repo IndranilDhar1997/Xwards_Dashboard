@@ -1,0 +1,367 @@
+/** Bold Fonts ***/
+@font-face {
+    font-family: MontserratBold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+.montserrat-bold { font-family: MontserratBold; }
+
+@font-face {
+    font-family: MontserratXBold;
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+.montserrat-x-bold { font-family: MontserratXBold; }
+
+/** Light Fonts ***/
+@font-face {
+    font-family: MontserratLight;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+.montserrat-light { font-family: MontserratLight; }
+
+@font-face {
+    font-family: MontserratXLight;
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+.montserrat-x-light { font-family: MontserratXLight; }
+
+@font-face {
+    font-family: MontserratThin;
+    src: url(../fonts/Montserrat-Thin.ttf);
+}
+.montserrat-thin { font-family: MontserratThin; }
+/** Light Fonts ***/
+
+/** Medium Fonts **/
+@font-face {
+    font-family: MontserratMedium;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+.montserrat-medium { font-family: MontserratMedium; }
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+.montserrat-semi-bold { font-family: MontserratSemiBold; }
+/** Medium Fonts **/
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+.montserrat { font-family: Montserrat; }
+
+.text-15 {
+    font-size: 15px;
+}
+
+.text-capitalize {
+    font-variant-caps: small-caps;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.font-weight-100 {
+    font-weight: 100;
+}
+
+.font-weight-200 {
+    font-weight: 200;
+}
+
+.font-weight-300 {
+    font-weight: 300;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.toUpper {
+    text-transform: uppercase;
+}
+
+.toLower {
+    text-transform: lowercase;
+}
+
+.text-xs {
+    font-size: 6px;
+}
+
+.text-sm {
+    font-size: 8px;
+}
+
+.text-md {
+    font-size: 10px;
+}
+
+.text-lg {
+    font-size: 12px;
+}
+
+.text-normal {
+    font-size: 14px;
+}
+
+.text-xlg {
+    font-size: 16px;
+}
+
+.text-xxlg {
+    font-size: 20px;
+}
+
+.text-xxxlg {
+    font-size: 24px;
+}
+
+.text-xxxxlg {
+    font-size: 28px;
+}
+
+@media only screen and (min-width: $break-xxs) {
+    .text-xs {
+        font-size: 7px;
+    }
+
+    .text-sm {
+        font-size: 10px;
+    }
+
+    .text-md {
+        font-size: 12px;
+    }
+
+    .text-normal {
+        font-size: 15px;
+    }
+
+    .text-lg {
+        font-size: 16px;
+    }
+
+    .text-xlg {
+        font-size: 18px;
+    }
+
+    .text-xxlg {
+        font-size: 22px;
+    }
+
+    .text-xxxlg {
+        font-size: 26px;
+    }
+
+    .text-xxxxlg {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: $break-xs) {
+    .text-xs {
+        font-size: 8px;
+    }
+
+    .text-sm {
+        font-size: 10px;
+    }
+
+    .text-md {
+        font-size: 13px;
+    }
+
+    .text-normal {
+        font-size: 16px;
+    }
+
+    .text-lg {
+        font-size: 18px;
+    }
+
+    .text-xlg {
+        font-size: 21px;
+    }
+
+    .text-xxlg {
+        font-size: 25px;
+    }
+
+    .text-xxxlg {
+        font-size: 28px;
+    }
+
+    .text-xxxxlg {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: $break-sm) {
+    .text-xs {
+        font-size: 9px;
+    }
+
+    .text-sm {
+        font-size: 11px;
+    }
+
+    .text-md {
+        font-size: 14px;
+    }
+
+    .text-normal {
+        font-size: 16px;
+    }
+
+    .text-lg {
+        font-size: 18px;
+    }
+
+    .text-xlg {
+        font-size: 22px;
+    }
+
+    .text-xxlg {
+        font-size: 26px;
+    }
+
+    .text-xxxlg {
+        font-size: 30px;
+    }
+
+    .text-xxxxlg {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (min-width: $break-md) {
+    .text-xs {
+        font-size: 10px;
+    }
+
+    .text-sm {
+        font-size: 12px;
+    }
+
+    .text-md {
+        font-size: 15px;
+    }
+
+    .text-normal {
+        font-size: 17px;
+    }
+
+    .text-lg {
+        font-size: 20px;
+    }
+
+    .text-xlg {
+        font-size: 24px;
+    }
+
+    .text-xxlg {
+        font-size: 28px;
+    }
+
+    .text-xxxlg {
+        font-size: 36px;
+    }
+
+    .text-xxxxlg {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (min-width: $break-lg) {
+    .text-xs {
+        font-size: 12px;
+    }
+
+    .text-sm {
+        font-size: 14px;
+    }
+
+    .text-md {
+        font-size: 16px;
+    }
+
+    .text-normal {
+        font-size: 20px;
+    }
+
+    .text-lg {
+        font-size: 24px;
+    }
+
+    .text-xlg {
+        font-size: 28px;
+    }
+
+    .text-xxlg {
+        font-size: 36px;
+    }
+
+    .text-xxxlg {
+        font-size: 42px;
+    }
+
+    .text-xxxxlg {
+        font-size: 48px;
+    }
+
+    .Georgia, .serif {
+        font-family: Georgia, serif;
+    }
+
+    .sans-serif {
+        font-family: sans-serif;
+    }
+
+    .serif {
+        font-family: serif;
+    }
+
+    .cursive {
+        font-family: cursive;
+    }
+
+    .monospace {
+        font-family: monospace;
+    }
+
+    .fantasy {
+        font-family: fantasy;
+    }
+}

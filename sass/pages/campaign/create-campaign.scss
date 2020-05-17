@@ -1,0 +1,95 @@
+#addCampaign{
+    
+    .fileContainer {
+        background: none !important;
+        box-shadow: none !important;
+        margin: 0px;
+        padding: 0px;
+        img.uploadIcon, p {
+            display: none;
+        }
+        .uploadPicturesWrapper {
+            height: 50vh;
+            overflow-y: scroll;
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+            
+            /* Track */
+            &::-webkit-scrollbar-track {
+                background: #f1f1f1; 
+            }
+            
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+                background: #888; 
+            }
+            
+            /* Handle on hover */
+            &::-webkit-scrollbar-thumb:hover {
+                background: #555; 
+            }
+        }
+        
+        .uploadPictureContainer {
+            width: 100%;
+            padding: 0px;
+            margin: 1%;
+            background: none !important;
+            box-shadow: none !important;
+        }
+
+        .deleteImage {
+            background: #ff4040;
+            font-size: 14px !important;
+            line-height: 20px !important;
+            width: 20px !important;
+            height: 20px !important;
+            top: 5px !important;
+            right: 5px !important;
+        }
+        .errorsContainer {
+            position: absolute;
+            left: -40vh;
+            top: 0px;
+        }
+    }
+
+    #contentHolderDays {
+        position: absolute;
+        line-height: 38px;
+        top: 0px;
+        right: 35px;
+        color: #495057;
+    }
+
+    #calculatedEndDate {
+        padding: 8px;
+        border-radius: 4px;
+        background: #f1f1f1;
+        display: none;
+    }
+
+    #contentTotalBudget {
+        position: absolute;
+        line-height: 38px;
+        top: 0px;
+        left: 10px;
+        color: #495057;
+    }
+
+    #tablet {
+        background: url("../../../images/tablet_campaign.png") no-repeat;
+        width: 90vh;
+        height: 70vh;
+        background-size: contain;
+        background-position: center;
+        margin: 0px auto;
+        padding: 5vh 7vh;
+        margin-bottom: 20px;
+        p.uploadDescription {
+            width: 100%;
+            margin-top: 20vh;
+        }
+    }
+}

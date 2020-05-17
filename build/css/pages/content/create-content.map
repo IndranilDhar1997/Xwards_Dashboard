@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "create-content.css",
+	"sources": [
+		"../../../../sass/pages/content/create-content.scss"
+	],
+	"sourcesContent": [
+		"form#createContentForm {\n    .editor-wrapper {\n        border: 1px solid #ced4da;\n        border-radius: 0.5rem;\n        min-height: 300px;\n        .x-toolbar {\n            border-radius: 0.5rem 0.5rem 0rem 0rem;\n            border: 0px;\n            border-bottom: 1px solid #ced4da;\n            .rdw-option-wrapper {\n                padding: .375rem .75rem !important;\n                height: auto !important;\n                min-width: auto !important;\n                border-radius: .25rem !important;\n            }\n        }\n        .editing-preview-area {\n            padding: 0px 8px;\n        }\n    }\n    #tablet {\n        background: url(\"../../../images/tablet_campaign.png\") no-repeat;\n        width: 90vh;\n        height: 70vh;\n        background-size: contain;\n        background-position: center;\n        margin: 0px auto;\n        padding: 5vh 7vh;\n        margin-bottom: 20px;\n        p.uploadDescription {\n            width: 100%;\n            margin-top: 20vh;\n        }\n    }\n}\n\n.ChannelCard {\n    width: 250px;\n    height: 300px;\n    padding: 5px;\n    margin-bottom: 30px;\n    img {\n        object-fit: cover;\n        width: 238px;\n        height: 238px;\n    }\n}\n    "
+	],
+	"names": [],
+	"mappings": ";AAAA,AACI,IADA,AAAA,kBAAkB,CAClB,eAAe,CAAC;EACZ,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,MAAM;EACrB,UAAU,EAAE,KAAK;CAepB;;;AAnBL,AAKQ,IALJ,AAAA,kBAAkB,CAClB,eAAe,CAIX,UAAU,CAAC;EACP,aAAa,EAAE,uBAAuB;EACtC,MAAM,EAAE,GAAG;EACX,aAAa,EAAE,iBAAiB;CAOnC;;;AAfT,AASY,IATR,AAAA,kBAAkB,CAClB,eAAe,CAIX,UAAU,CAIN,mBAAmB,CAAC;EAChB,OAAO,EAAE,yBAAyB;EAClC,MAAM,EAAE,eAAe;EACvB,SAAS,EAAE,eAAe;EAC1B,aAAa,EAAE,iBAAiB;CACnC;;;AAdb,AAgBQ,IAhBJ,AAAA,kBAAkB,CAClB,eAAe,CAeX,qBAAqB,CAAC;EAClB,OAAO,EAAE,OAAO;CACnB;;;AAlBT,AAoBI,IApBA,AAAA,kBAAkB,CAoBlB,OAAO,CAAC;EACJ,UAAU,EAAE,0CAA0C,CAAC,SAAS;EAChE,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,eAAe,EAAE,OAAO;EACxB,mBAAmB,EAAE,MAAM;EAC3B,MAAM,EAAE,QAAQ;EAChB,OAAO,EAAE,OAAO;EAChB,aAAa,EAAE,IAAI;CAKtB;;;AAjCL,AA6BQ,IA7BJ,AAAA,kBAAkB,CAoBlB,OAAO,CASH,CAAC,AAAA,kBAAkB,CAAC;EAChB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;CACnB;;;AAIT,AAAA,YAAY,CAAC;EACT,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,IAAI;CAMtB;;;AAVD,AAKI,YALQ,CAKR,GAAG,CAAC;EACA,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB"
+}

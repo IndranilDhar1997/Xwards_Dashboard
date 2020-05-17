@@ -1,0 +1,174 @@
+@import "init";
+@import "pages/campaign/campaign-summary";
+@import "pages/campaign/create-campaign";
+@import "pages/users/user-profile";
+@import "pages/team/team-management";
+@import "pages/content/create-content";
+@import "pages/xplay/xplay-channel";
+@import "pages/xplay/xplay-request";
+@import "pages/xmusic/xmusic-channel";
+@import "pages/xmusic/xmusic-request";
+@import "imageUploader";
+@import "gradiants";
+
+.container-fluid.nav-container {
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(191,191,191,1);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(191,191,191,1);
+	box-shadow: 0px 0px 5px 1px rgba(191,191,191,1);
+	position: fixed;
+	z-index: 1000;
+}
+div.main-body-holder {
+	padding-top: 50px;
+	height: 100vh;
+	width: 100%;
+}
+nav.navbar {
+	padding: 0.1rem 1rem;
+	button.btn-link:hover, button.btn-link:active, button.btn-link:focus {
+		text-decoration: none !important;
+		outline: none !important;
+		box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+	}
+	a.dropdown-item:hover {
+		background: #0350a4;
+		color: #fff;
+		font-weight: bold;
+	}
+	a.dropdown-item:active {
+		background: #232b62;
+	}
+}
+div.slider {
+	&.hide {
+		display: none;
+	}
+	z-index: 1002;
+	position: absolute;
+    top: 0px;
+    left: -15px;
+    width: 100vw;
+    height: 100vh;
+	background: rgba(180, 180, 180, 0.5);
+	div.sideMenu {
+		background: white;
+		height: 100vh;
+		width: 20vw;
+		min-width: 250px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		overflow-x: hidden;
+	}
+	.list-group-item {
+		&.active {
+			background: #232b62;
+			color: #fff;
+			font-weight: bold;
+		}
+		&:hover {
+			background: #0350a4;
+			color: #fff;
+			font-weight: bold;
+		}
+		border: none;
+	}
+	.list-group-item:last-child, .list-group-item:first-child {
+		border-radius: 0px;
+	}
+}
+
+div.dashboard-menuholder {
+	div.dashboard-sidemenu {
+		background: white;
+		padding-top: 45px;
+		height: 100vh;
+		width: 100%;
+		position: fixed;
+		max-width: 16.6%;
+		left: 0px;
+		border-right: 1px solid #eee;
+		.list-group-item {
+			&.active {
+				background: #232b62;
+				color: #fff;
+				font-weight: bold;
+			}
+			&:hover {
+				background: #0350a4;
+				color: #fff;
+				font-weight: bold;
+			}
+			border: none;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.list-group-item:last-child, .list-group-item:first-child {
+			border-radius: 0px;
+		}
+	}
+}
+
+div#brandAddModal, div#Xplay-ThumbnailImage {
+	.modal-header {
+		padding-bottom: 0px !important;
+		border-bottom: none;
+	}
+}
+
+.leaflet-container {
+	height: 65vh;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.editing-preview-area {
+	padding: 0px 8px;
+}
+
+.editor-wrapper {
+	border: 1px solid #ced4da;
+	border-radius: 0.5rem;
+	min-height: 300px;
+	.x-toolbar {
+		border-radius: 0.5rem 0.5rem 0rem 0rem;
+		border: 0px;
+		border-bottom: 1px solid #ced4da;
+		.rdw-option-wrapper {
+			padding: .375rem .75rem !important;
+			height: auto !important;
+			min-width: auto !important;
+			border-radius: .25rem !important;
+		}
+	}
+}
+
+#main-spinner-content-holder {
+	position: fixed;
+	width: 100%;
+    height: calc( 100% - 50px );
+    top: 50px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.93);
+	z-index: 3000;
+	display: none;
+	#spinner-holder {
+		top: 50%;
+		position: absolute;
+		margin-top: -4.7rem;
+		left: 50%;
+		margin-left: -4.7rem;
+	}
+	#main-spinner {
+		display: inline-block;
+		width: 7rem;
+		height: 7rem;
+		vertical-align: text-bottom;
+		border: 1.2em solid currentColor;
+		border-right-color: transparent;
+		border-radius: 50%;
+		animation: spinner-border .75s linear infinite;
+	}
+}

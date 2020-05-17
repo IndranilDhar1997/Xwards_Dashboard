@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "xplay-request.css",
+	"sources": [
+		"../../../../sass/pages/xplay/xplay-request.scss"
+	],
+	"sourcesContent": [
+		"div#xPlay__requestModal {\n\t.modal-header {\n\t\tpadding-bottom: 0px !important;\n\t\tborder-bottom: none;\n\t}\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AACC,GADE,AAAA,oBAAoB,CACtB,aAAa,CAAC;EACb,cAAc,EAAE,cAAc;EAC9B,aAAa,EAAE,IAAI;CACnB"
+}

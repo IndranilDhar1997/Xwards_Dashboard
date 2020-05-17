@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "xplay-channel.css",
+	"sources": [
+		"../../../../sass/pages/xplay/xplay-channel.scss"
+	],
+	"sourcesContent": [
+		"div#xPlay__newChannelModal {\n\t.modal-header {\n\t\tpadding-bottom: 0px !important;\n\t\tborder-bottom: none;\n\t}\n}\n\ndiv#xPlay__editChannelModal {\n\t.modal-header {\n\t\tpadding-bottom: 0px !important;\n\t\tborder-bottom: none;\n\t}\n}\n\ndiv#xPlay__deleteChannelModal {\n\t.modal-header {\n\t\tpadding-bottom: 0px !important;\n\t\tborder-bottom: none;\n\t}\n}\n\nform#uploadVideoForm {\n    .editor-wrapper {\n        border: 1px solid #ced4da;\n        border-radius: 0.5rem;\n        min-height: 150px;\n        .editing-preview-area {\n            padding: 0px 8px;\n        }\n\t}\n}\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AACC,GADE,AAAA,uBAAuB,CACzB,aAAa,CAAC;EACb,cAAc,EAAE,cAAc;EAC9B,aAAa,EAAE,IAAI;CACnB;;;AAGF,AACC,GADE,AAAA,wBAAwB,CAC1B,aAAa,CAAC;EACb,cAAc,EAAE,cAAc;EAC9B,aAAa,EAAE,IAAI;CACnB;;;AAGF,AACC,GADE,AAAA,0BAA0B,CAC5B,aAAa,CAAC;EACb,cAAc,EAAE,cAAc;EAC9B,aAAa,EAAE,IAAI;CACnB;;;AAGF,AACI,IADA,AAAA,gBAAgB,CAChB,eAAe,CAAC;EACZ,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,MAAM;EACrB,UAAU,EAAE,KAAK;CAIvB;;;AARF,AAKQ,IALJ,AAAA,gBAAgB,CAChB,eAAe,CAIX,qBAAqB,CAAC;EAClB,OAAO,EAAE,OAAO;CACnB"
+}

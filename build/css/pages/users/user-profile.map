@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "user-profile.css",
+	"sources": [
+		"../../../../sass/pages/users/user-profile.scss"
+	],
+	"sourcesContent": [
+		"div#myProfile__emailUpdateModal {\n\t.modal-header {\n\t\tborder: 0 none;\n\t}\n\t.help-block {\n\t\tcolor: red;\n\t\tfont-size: 14px;\n\t\tfont-family: Verdana, Geneva, Tahoma, sans-serif;\n\t}\n}\n\ndiv#myProfile__changePasswordModal {\n\t.modal-header {\n\t\tborder: 0 none;\n\t}\n\t.help-block {\n\t\tcolor: red;\n\t\tfont-size: 14px;\n\t\tfont-family: Verdana, Geneva, Tahoma, sans-serif;\n\t}\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AACC,GADE,AAAA,4BAA4B,CAC9B,aAAa,CAAC;EACb,MAAM,EAAE,MAAM;CACd;;;AAHF,AAIC,GAJE,AAAA,4BAA4B,CAI9B,WAAW,CAAC;EACX,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,mCAAmC;CAChD;;;AAGF,AACC,GADE,AAAA,+BAA+B,CACjC,aAAa,CAAC;EACb,MAAM,EAAE,MAAM;CACd;;;AAHF,AAIC,GAJE,AAAA,+BAA+B,CAIjC,WAAW,CAAC;EACX,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,mCAAmC;CAChD"
+}

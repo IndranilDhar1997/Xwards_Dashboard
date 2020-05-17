@@ -1,0 +1,65 @@
+{
+    "id": "234567656453423",
+    "user_id": "eefgh6534345",
+    "user_role": "owner",
+    "brands": [
+        {
+            "id": 1,
+            "name": "Swiggy"
+        },
+        {
+            "id": 2,
+            "name": "Zomato"
+        },
+        {
+            "id": 39,
+            "name": "Zoom Car"
+        },
+        {
+            "id": 41,
+            "name": "Dunzo"
+        },
+        {
+            "id": 52,
+            "name": "Levis"
+        },
+        {
+            "id": 81,
+            "name": "Practo"
+        },
+        {
+            "id": 88,
+            "name": "Wrangler"
+        },
+        {
+            "id": 101,
+            "name": "Uber Eats"
+        }
+    ],
+    "users": [
+        {
+            "label": 1,
+            "value": "indro@tech-talks.in"
+        },
+        {
+            "label": 2,
+            "value": "arpan33sharma@gmail.com"
+        },
+        {
+            "label": 3,
+            "value": "veers@tech-talks.in"
+        },
+        {
+            "label": 4,
+            "value": "jozef@xwards.com"
+        },
+        {
+            "label": 5,
+            "value": "iftikar100@gmail.com"
+        },
+        {
+            "label": 6,
+            "value": "paragsarkar@gmail.com"
+        }
+    ]
+}
